@@ -9,7 +9,9 @@
   "author": "Caio Ribeiro Pereira",
   "dependencies": {
     "consign": "^0.1.6",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "sequelize": "^4.40.0",
+    "sqlite3": "^4.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0"
