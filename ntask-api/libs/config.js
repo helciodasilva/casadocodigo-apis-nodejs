@@ -5,9 +5,10 @@ module.exports = {
   params: {
     dialect: "sqlite",
     storage: "ntask.sqlite",
-    logging: console.log,
     define: {
       underscored: true
-    }
+    },
+    jwtSecret: "Nta$K-AP1",
+    jwtSession: {session: false}
   }
 };
