@@ -4,7 +4,7 @@ const PORT = 3000;
 
 const app = express();
 
-consign()
+consign({verbose: false})
     .include("libs/config.js")
     .include("db.js")
     .include("auth.js")
@@ -12,3 +12,5 @@ consign()
     .then("routes")
     .then("libs/boot.js")
     .into(app);
+
+module.exports = app;
